@@ -114,3 +114,14 @@ console.log('title', spanHi.title)
 spanHi.setAttribute('title', 'holaaa')
 console.log('newtitle', spanHi.title)
 spanHi.removeAttribute('title')
+console.log(spanHi.dataset)
+console.log(spanHi.dataset.longerName)
+spanHi.dataset.newName = "newww"
+console.log(spanHi.dataset.newName)
+
+spanHi.classList.add('new-clss')
+spanHi.classList.remove('hi1')
+spanHi.classList.toggle('hi2')
+// spanHi.classList.toggle('hi2',true)
+
+spanHi.style.backgroundColor = "purple"
